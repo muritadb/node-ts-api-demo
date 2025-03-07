@@ -1,0 +1,28 @@
+{
+  "name": "ts-simple-starter",
+  "version": "2.2.5",
+  "description": "A simple starter for TypeScript projects",
+  "author": "Davi S. Bento <contato@davisbento.dev>",
+  "main": "index.js",
+  "homepage": "https://github.com/davisbento/ts-simple-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davisbento/ts-simple-starter.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "template",
+    "starter",
+    "jest",
+    "absolute path"
+  ],
+  "bin": {
+    "ts-simple-starter": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "cross-spawn": "7.0.3",
+    "inquirer": "7.3.3"
+  }
+}

@@ -1,0 +1,40 @@
+@host = http://localhost:8080
+@authToken = {{login.response.body.token}}
+
+
+GET {{host}}/
+
+
+###
+POST {{host}}/user/register
+Content-type: application/json
+
+{
+    "email": "test@test.com",
+    "password": "test123"
+}
+
+
+###
+# @name login
+POST {{host}}/user/login
+Content-type: application/json
+
+{
+    "email": "test@test.com",
+    "password": "test123"
+}
+
+
+
+###
+GET {{host}}/user/profile
+Content-type: application/json
+Authorization: Bearer {{authToken}}
+
+
+###
+GET {{host}}/user/admin
+Content-type: application/json
+Authorization: Bearer {{authToken}}
+
