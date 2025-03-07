@@ -19,6 +19,10 @@
     "node": true
   },
   "rules": {
+    "semi": [
+      "error",
+      "never"
+    ],
     "max-depth": [
       "warn",
       3
