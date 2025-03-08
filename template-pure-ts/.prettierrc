@@ -8,5 +8,6 @@
   "jsxSingleQuote": false,
   "tabWidth": 2,
   "trailingComma": "es5",
-  "useTabs": false
+  "useTabs": false,
+  "space-before-function-paren": true
 }
