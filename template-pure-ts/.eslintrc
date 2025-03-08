@@ -20,6 +20,7 @@
     "node": true
   },
   "rules": {
+    "@typescript-eslint/strict-boolean-expressions": "off",
     "semi": [
       "error",
       "never"
